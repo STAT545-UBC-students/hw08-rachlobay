@@ -1,7 +1,8 @@
-# hw08-seed
+# STAT 547 HW08 Creation of Diamonds App
 
-This repo contains the BC Liquor app as a boilerplate for students to add to in Homework 08.
+## What is the app?
 
-The code and data are from [Dean Attali's tutorial](https://deanattali.com/blog/building-shiny-apps-tutorial). The code can specifically be found [here](https://deanattali.com/blog/building-shiny-apps-tutorial/#12-final-shiny-app-code).
+For my app, I used the diamonds dataset, which comes with the ggplot2 package. So, we get this data set when we load the tidyverse package. 
+The aim of this app is to use graphs, interactive tables and widgits to sort and display the data. 
 
-
+I referred to [this tutorial](https://plot.ly/r/shiny-tutorial/) for the base of the code used to incorporate plotly into my app.

@@ -1,6 +1,12 @@
 # STAT 547 HW08 Creation of Diamonds App
-## Table of Contents
 
+## Table of Contents
+- [What is the app and what data are we using?](#what-is-the-app-and-what-data-are-we-using?)
+- [Important links](#important-links)
+- [Features of the app](#features-of-the-app)
+    + [Histogram and table of diamonds data](#exercise-4-create-regular-expressions-to-find-all-words)
+    + [Summary of Price by Cut](#summary-of-price-by-cut)
+    + [Plotly scatterplot of the sample carat vs price](#plotly-scatterplot-of-the-sample-carat-vsprice)
 
 ## What is the app and what data are we using?
 
@@ -10,12 +16,12 @@ For my app, I used the diamonds dataset, which comes with the ggplot2 package. S
 
 ## Important links
 
-Here is a link to the app since it is deployed online at shinyapps.io:
+** Here is a link to the app since it is deployed online at shinyapps.io: **
 [https://rach21ubc.shinyapps.io/diamonds-app/](https://rach21ubc.shinyapps.io/diamonds-app/). 
 
-Note that the app runs slower than I would like online.
+Note that the app runs slower than I would like online. But, it still runs :smile:
 
-Here is a link to the app code that was uploaded to Github:
+** Here is a link to the app code that was uploaded to Github: **
 
 https://github.com/STAT545-UBC-students/hw08-rachlobay/blob/master/Diamonds-app/app.R
 

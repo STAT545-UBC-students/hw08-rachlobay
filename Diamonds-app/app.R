@@ -22,7 +22,7 @@ ui <- fluidPage(
              windowTitle = "Diamonds app"),
   sidebarLayout(
     sidebarPanel(sliderInput(
-      "priceInput", "Select your desired price per carat range.",
+      "priceInput", "Select your desired price range (in US dollars).",
       min = 0, max = 18823, value = c(2000, 4000), pre="$"),
       radioButtons("cutInput", "Select the cut of the diamonds",
                    choices = c("Fair", "Good", "Very Good", "Premium", "Ideal"),
@@ -91,8 +91,8 @@ server <- function(input, output) {
   })
   
   output$event <- renderPrint({
-    d <- event_data("plotly_hover")
-    if (is.null(d)) "Hover on a point!" else d
+    hover = event_data("plotly_hover")
+    if (is.null(hover)) "Please put your mouse over a point." else hover
   })
   
   # Display only the columns (variables) that are selected in the table of diamonds data
